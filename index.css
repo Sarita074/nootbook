@@ -1,154 +1,83 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap");
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nootbook</title>
+    <link rel="stylesheet" href="./index.css">
+    <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-d53d10572a0e0d37cb8d614a3f177a0c.css?vsn=d"
+    >
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins, sans-serif";
-}
-body{
-    background-color: rgb(230, 232, 242);
-    height: 100vh;
-    width: 100vw;
-}
-header{
-    height: 14vh;
-    width: 100%;
-    box-shadow: 0 1px 5px rgb(10, 10, 10);
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(178, 171, 171);
-}
-header>h1{
-    font-weight: 900;
-    font-family:Gwendolyn, cursive;
-    font-size: 50px;
-    margin: 20px;
-    
-}
-header>i{
-    font-size: 40px;
-}
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css"
+      >
 
-.maincont{
-    height: 86vh;
-    width: 100%;
-    display: flex;
-}
-.leftcont{
-    height: 100%;
-    width: 35%;
-    background-color: rgb(185, 184, 184);
-    display: flex;
-    flex-direction: column;
-    padding: 60px;
-    align-items: start;
-}
-.leftcont>h3{
-    margin-left: 40px;
-    font-size: 30px;
-    font-weight: 900;
-    padding: 20px;
-    font-family:Gwendolyn, cursive;
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-thin.css"
+      >
 
-}
-.leftcont>form{
-    height: 70%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: start;
-}
-.leftcont>form>input{
-    width: 65%;
-    height: 60px;
-    border: none;
-    border-radius: 5px;
-    padding: 20px;
-}
-.leftcont>form>input::placeholder{
-    font-size: 14px;
-    color: rgb(68,68,68);
-}
-.leftcont>form>textarea{
-    border: none;
-    width: 65%;
-    border-radius: 5px;
-    padding-left: 15px;
-    padding-top: 10px;
-}
-.leftcont>form>textarea::placeholder{
-    font-size: 14px;
-    color: rgb(68,68,68);
-}
-.rightcont{
-    height: 100%;
-    width: 65%;
-    padding: 30px;
-    background-color: rgb(228, 209, 209);
-}
-.rightcont>div{
-    height: 60px;
-    width: 90%;
-    display: flex;
-    align-items: center;
-    margin: 20px;
-    background-color: rgb(220, 202, 202);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-solid.css"
+      >
 
-}
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-regular.css"
+      >
 
-.rightcont>div>h2 {
-    font-size: 20px;
-    padding-left: 30px;
-    margin: 0;
-    padding: 0;
-    flex: 1;
-}
-.fas{
-    margin: 10px;
-    cursor: pointer;
-    color: #000000;
-    transition: all 2s ease;
-}
-.fas:hover{
-    font-size: 22px;
-}
-.fa-pen{
-    margin-left: 400px;
-}
-.note-content {
-    flex-grow: 1;
-}
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-light.css"
+      >
+      <link rel="shortcut icon" href="./favicon_io/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <i class="fa-regular fa-notebook"></i>
+        <h1>
+            Your NootBook 
+        </h1>
+        <div id="clockContainer" >
+          <div>
+              <div class="clock-numbers" style="top: 6%; left: 47%;">12</div>
+              <div class="clock-numbers" style="top: 12%; left: 68%;">1</div>
+              <div class="clock-numbers" style="top: 27%; left: 83%;">2</div>
+              <div class="clock-numbers" style="top: 47%; left: 88%;">3</div>
+              <div class="clock-numbers" style="top: 66%; left: 83%;">4</div>
+              <div class="clock-numbers" style="top: 80%; left: 68%;">5</div>
+              <div class="clock-numbers" style="top: 87%; left: 47%;">6</div>
+              <div class="clock-numbers" style="top: 80%; left: 27%;">7</div>
+              <div class="clock-numbers" style="top: 66%; left: 14%;">8</div>
+              <div class="clock-numbers" style="top: 47%; left: 9%;">9</div>
+              <div class="clock-numbers" style="top: 27%; left: 14%;">10</div>
+              <div class="clock-numbers" style="top: 12%; left: 27%;">11</div>
+              
+          </div>
+          <div id="hour"></div>
+          <div id="minute"></div>
+          <div id="second"></div>
+      </div>
 
-#actions {
-    display: flex;
-    align-items: center;
-    gap: 1px; /* Adjust the gap between icons as needed */
-}
-button{
-    width: 100px;
-    height: 35px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(14, 14, 14);
-    border-radius: 5px;
-    border: none;
-    transition: all 2s ease;
-}
+    </header>
+    <section class="maincont">
+        <div class="leftcont">
+          <h3>Save Your Notes</h3>
+          <form action="">
+            <input type="text"  placeholder="Title of your note.." value="" id="title">
+            <textarea name="" id="book" cols="30" rows="10" placeholder="Write your note here..." value=""></textarea>
 
-button:hover{
-    color: rgb(5, 5, 5);
-    background-color: transparent;
-    border: 2px solid rgb(0, 0, 0);
-    width: 110px;
-    height: 40px;
-    border-radius: 10px;
-    box-shadow: 2px;
-}
+          </form>
+          <button type="submit" id="btn" value="">Save</button>
+        </div>
+        <div class="rightcont" id="rightdiv" value=""></div>
+    </section>
+    <script src="index.js"></script>
+</body>   
+</html>
